@@ -14,6 +14,10 @@ inputs:
     description: 'Setting the installed standard paths'
     required: false
     default: ''
+  target_path:
+    description: 'Setting for target path'
+    required: true
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
